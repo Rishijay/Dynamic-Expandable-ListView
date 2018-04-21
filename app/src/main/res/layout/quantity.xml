@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/AlertGreen"
+        android:text="Order For : "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item"
+            android:textSize="18dp"
+            android:textColor="@color/AlertGreen"
+            android:id="@+id/itemName"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_half"
+            android:layout_margin="10dp"
+            android:textColor="@color/Black"
+            android:textSize="16dp"
+            android:text="Half :"/>
+
+        <EditText
+            android:layout_width="50dp"
+            android:id="@+id/half_quantity"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.18"
+            android:gravity="center"
+            android:hint="00"
+            android:textColor="@color/AlertLightGreen"
+            android:maxLength="2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_full"
+            android:layout_margin="10dp"
+            android:textColor="@color/Black"
+
+            android:textSize="16dp"
+            android:text="Full :"/>
+
+        <EditText
+            android:layout_width="50dp"
+            android:id="@+id/full_quantity"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.18"
+            android:gravity="center"
+            android:hint="00"
+            android:textColor="@color/AlertLightGreen"
+            android:maxLength="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:text="Add"
+            android:background="@android:color/transparent"
+            android:textColor="@color/AlertGreen"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/AlertGreen"
+            android:id="@+id/cancelbtn"
+            android:text="Cancel"/>
+    </LinearLayout>
+
+
+</LinearLayout>

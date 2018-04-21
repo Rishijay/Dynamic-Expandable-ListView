@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#8e1616</color>
+    <color name="colorAccent">#B71C1C</color>-->
+    <color name="colorPrimary">#080e40</color>
+    <color name="colorPrimaryDark">#020425</color>
+    <color name="colorAccent">#0c1f76</color>
+    <color name="fabBack">#ffffff</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#fff</color>
+    <color name="Black">#000000</color>
+    <color name="Hint">#898888</color>
+    <color name="AlertGreen">#00695C</color>
+    <color name="AlertLightGreen">#00897B</color>
+
+</resources>
