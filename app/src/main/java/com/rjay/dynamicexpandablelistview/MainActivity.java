@@ -51,8 +51,7 @@ public class MainActivity extends AppCompatActivity {
     public List<String> category_id = new ArrayList<>();
     public List<String> full = new ArrayList<>();
     public List<String> half = new ArrayList<>();
-    //String url = "http://192.168.1.109/pages/food_available_menu_json.php"; // Replace with your own url
-    String url = "http://miscos.in/dqm/dqm_json/food_available_menu_json.php";
+    String url = "http://192.168.1.109/pages/food_available_menu_json.php"; // Replace with your own url
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
     List<String> listDataHeader;
